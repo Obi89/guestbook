@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Permanently delete Message{% endblock title %}</title>
+</head>
+<body>
+{% extends "base.html" %}
+{% block page_content %}
+<h3>Guestbook: Permanently delete message</h3>
+
+<form method="post">
+    <p><strong>Permanently delete the Guestbook message</strong></p>
+
+    <p><strong>Author name:</strong> {{ message.name }}</p>
+
+    <p><strong>Author email:</strong> {{ message.email }}</p>
+
+    <p><strong>Message: </strong>{{ message.message }}</p>
+
+    <button type="submit">Permanently delete this message</button>
+</form>
+{% endblock page_content %}
+</body>
+</html>

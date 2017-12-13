@@ -1,0 +1,130 @@
+body{
+font-family: 'Playfair Display SC', serif;
+}
+nav{
+  background-color: rgba(200, 200, 200, 0.7);
+  font-family: 'Playfair Display SC', serif;
+}
+.navbar-brand{
+  font-weight:normal;
+  font-size: 20px;
+  color: rgb(51, 133, 255);
+}
+.navi{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+.login-link{
+color: rgb(255, 255, 255);
+}
+.welcome{
+  border: white solid 0.2px;
+  margin-top: -50px;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+}
+.lobby{
+ background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  height: 500px;
+  margin-top: 100px;
+  text-align: center;
+  color: rgb(260, 260, 260);
+  font-family: 'Playfair Display SC', serif;
+  background-color: rgba(120, 120, 120, 0.7);
+  border-top: solid white 0.5px;
+  border-bottom: solid white 0.5px;
+}
+.lobby h2{
+  margin-bottom: 30px;
+  margin-top: 25px;
+  color: rgb(0, 0, 0);
+  font-family: 'Playfair Display SC', serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+.book{
+  border: white solid 0.2px;
+  margin-top: -50px;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+}
+.bookcontent{
+  margin: 100px 0px 100px 0px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Playfair Display SC', serif;
+  background-color: rgba(180, 180, 180, 0.7);
+  border-top: solid white 0.5px;
+  border-bottom: solid white 0.5px;
+  padding: 30px 0px;
+}
+p{
+width: 250px;
+box-sizing: border-box;
+margin: 0px auto;
+font-family: 'Playfair Display SC', serif;
+}
+
+.bookcontent p{
+font-size: 20px;
+}
+
+.messages{
+ margin: 100px 0px 0px 0px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Playfair Display SC', serif;
+  background-color: rgba(200, 200, 250, 0.7);
+}
+.message_edit{
+}
+.form-group{
+  font-family: 'Playfair Display SC', serif;
+}
+.footermain{
+  text-align: center;
+  background-color: rgba(120, 120, 120, 0.7);
+  font-family: 'Playfair Display SC', serif;
+  position: fixed;
+  bottom: 0px;
+  color: white;
+  width: 100%;
+}
+.socicon div{
+  float: left;
+  margin: 6px 10px 2px 5px;
+}
+.socicon .admin{
+  margin-top: 2px;
+  float: right;
+  color: white;
+}
+.socicon .copy{
+  float: left;
+  font-size: 16px;
+  margin: 0px 10px -5px 5px;
+}
+.admin_content{
+margin-top: 70px;
+text-align: center;
+
+}
+.deleted{
+margin-top: 70px;
+}
