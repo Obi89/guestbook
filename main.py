@@ -56,7 +56,7 @@ class Message(ndb.Model):
 class AdminSite(BaseHandler):
     def get(self):
         if not users.is_current_user_admin():  # check if current user is admin
-            return self.write("You are not admin!")
+            return self.write("You are not admin! ;)")
         messages = Message.query(Message.deleted == False).fetch()
         params = {"messages": messages}
         return self.render_template("admin-site.html", params=params)

@@ -17,7 +17,7 @@
     <p>Your first and last name:<input type="text" name="name"></p>
     </div>
     <div>
-    <p>Your email:<br><strong> {{ user.email() }}</strong></p>
+    <p>Your email:<br><strong><input type="email" name="email" value="{{ user.email() }}"</strong></p>
     </div>
     <div>
     <h6><textarea name="message" rows="10" cols="80" placeholder="Enter your message here" required></textarea></h6>
@@ -51,10 +51,10 @@
     <div class="socicon">
 <a class="admin" href="/admin-site">Admin-Site</a>
     <div class="copy">Filton Hotel Group 2017</div>
-        <div class="socicon-instagram"></div>
-    <div class="socicon-facebook"></div>
-    <div class="socicon-twitter"></div>
-    <div class="socicon-youtube"></div>
+        <a href="https://www.instagram.com/?hl=de"><div class="socicon-instagram"></div></a>
+    <a href="https://www.facebook.com/?hl=de"><div class="socicon-facebook"></div></a>
+    <a href="https://www.twitter.com"><div class="socicon-twitter"></div></a>
+    <a href="https://www.youtube.com"><div class="socicon-youtube"></div></a>
   </div>
 
   </footer>

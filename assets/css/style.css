@@ -128,3 +128,11 @@ text-align: center;
 .deleted{
 margin-top: 70px;
 }
+
+.footermain a{
+color: white;
+}
+
+.footermain a:hover{
+color: rgb(64, 64, 64);
+}

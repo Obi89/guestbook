@@ -48,8 +48,9 @@
 <h2>Welcome {{ user.nickname() }}!</h2>
 {% for message in messages %}
     <p>
-        <strong><a href="mailto:{{message.email}}">{{ message.name }}</a></strong>
-        at {{ message.created.strftime('%d %B %Y at %H:%M') }}:
+        <strong><p>{{ message.name }}</p></strong>
+        <strong><a href="mailto:{{message.email}}">{{ message.email }}</a></strong><br>
+        at {{ message.created.strftime('%d %B %Y at %H:%M') }}:<br>
         (<a href="/message/{{message.key.id()}}/edit">edit</a>,
         <a href="/message/{{message.key.id()}}/delete">delete</a>)
         <br>
